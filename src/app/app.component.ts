@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DataBinding';
+  bird='Peacock';
+  image:string="assets/images/bird1.jpg";
+
+  btnStatus:boolean=false;
+  username="";
+  str="";
+  change(){
+     this.str='This is Event Binding';
+    }
 }
